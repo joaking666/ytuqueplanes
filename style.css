@@ -16,10 +16,10 @@ background: #FF0000;
 }
 .fondo-menu{
 	background: red;
-	padding-top: 5px;
-	padding-bottom: 2px;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .cabecera{
@@ -40,47 +40,44 @@ background: #FF0000;
 	padding-bottom: 30px;
 	color: red;
 }
+.texto-parrafo{
+	color: black;
+	padding-bottom: 30px;
+}
 .promociones{
 	text-align: center;
 	padding-top: 30px,
 	padding-bottom: 30px;
 	color: red;
 }
-.texto-parrafo{
-	color: black;
-	padding-bottom: 30px;
-}
 .mapas-guias{
 	background: #34641E;
-		color: #FFF;
+	text-align: center;
+	color: #FFF;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	text-align: center;
 	font-weight: bold;
-	width: 280px;
+	width: 250px;
 }
 .galeria-turistica{
-
 	background: #1C95D6;
+	text-align: center;
 	color: #FFF;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	text-align: center;
 	font-weight: bold;
-	width: 280px;
+	width: 250px;
 }
 .mas-informacion{
 	background: #FD6906;
+	text-align: center;
 	color: #FFF;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	text-align: center;
 	font-weight: bold;
-	width: 280px;
-}
-.separar{
-	margin-top: 40px;
-	margin-bottom: 40px;
+	width: 250px;
 }
 .subtitulo{
 	font-size: 28px;
@@ -112,11 +109,10 @@ background: #FF0000;
 	font-size: 20px;
 	font-weight: bold;
 }
-.texto-derecha{
-	text-align: right;
-}
 .seguridad{
 	/* la propiedad background permite colocar un color o imagen de fondo */
 	background: url("img/viaje-seguro.jpg") no-repeat center center;
-	height: 300px;
+	height: 600px;
+	padding: 100px;
+	color: #FFF;
 }
