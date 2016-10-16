@@ -1,3 +1,120 @@
+.menu {
+list-style: none;
+padding: 0;
+margin:0
+}.menu li {
+display: inline-block;
+font-size: 18px;
+background: #FF0000;
+}
+.menu li a{
+	color: #FFF;
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.fondo-menu{
+	background: red;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.cabecera{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.banner{
+	/* la propiedad background permite colocar un color o imagen de fondo */
+	background: url("img/fondo-portada.jpg") no-repeat center center;
+	height: 500px;
+	padding: 100px;
+	color: #FFF;
+
+}
+.texto-bienvenida{
+	text-align: center;
+	padding-top: 30px,
+	padding-bottom: 30px;
+	color: red;
+}
+.promociones{
+	text-align: center;
+	padding-top: 30px,
+	padding-bottom: 30px;
+	color: red;
+}
+.texto-parrafo{
+	color: black;
+	padding-bottom: 30px;
+}
+.mapas-guias{
+	background: #34641E;
+		color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	width: 280px;
+}
+.galeria-turistica{
+
+	background: #1C95D6;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	width: 280px;
+}
+.mas-informacion{
+	background: #FD6906;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	width: 280px;
+}
+.separar{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.subtitulo{
+	font-size: 28px;
+	font-weight: bold;
+	color: #CB7307;
+}
+.cuadro-imagen{
+	border: 1px
+	solid #999999;
+	padding: 10px;
+}
+.boton{
+	background: #CB7307;
+	color: #FFF;
+	padding: 8px;
+	border-radius: 5px;
+	float: right;
+}
+<.fondo-footer ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.fondo-footer ul li a{
+	color: #000;
+}
+.titulos-footer{
+	color: #CB7307;
+	font-size: 20px;
+	font-weight: bold;
+}
+.texto-derecha{
+	text-align: right;
+}
 .seguridad{
 	/* la propiedad background permite colocar un color o imagen de fondo */
 	background: url("img/viaje-seguro.jpg") no-repeat center center;
